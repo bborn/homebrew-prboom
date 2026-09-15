@@ -1,28 +1,28 @@
 class Prboom < Formula
   desc "Pick a pull request and walk it one finding at a time"
   homepage "https://github.com/bborn/prboom"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bborn/prboom/releases/download/v0.1.1/prboom-darwin-arm64.tar.gz"
-      sha256 "bdcc2623b37e21dd39fb069eeb5606ee307780ce4c5d1b59a847424117a5af44"
+      url "https://github.com/bborn/prboom/releases/download/v0.1.2/prboom-darwin-arm64.tar.gz"
+      sha256 "d19837afa1e782d34551ddf3e7633c33478d5cff96f4b4bbad598f5e48f0aa2c"
     end
     on_intel do
-      url "https://github.com/bborn/prboom/releases/download/v0.1.1/prboom-darwin-amd64.tar.gz"
-      sha256 "fb42007ccf23f79303036bbbadd7f648533f95616fefd2b7ca79ba78931a8601"
+      url "https://github.com/bborn/prboom/releases/download/v0.1.2/prboom-darwin-amd64.tar.gz"
+      sha256 "f6840e09386b44c5bc4a57db504225e14d8ce9f8c084151ddb57283e3b26dda5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bborn/prboom/releases/download/v0.1.1/prboom-linux-arm64.tar.gz"
-      sha256 "47677744aee12bad4c65ba2a0c8994a625656c4c840507a2a9e7fc72db4be717"
+      url "https://github.com/bborn/prboom/releases/download/v0.1.2/prboom-linux-arm64.tar.gz"
+      sha256 "6bebc7812a976748ca8bf2a575c777771ec8ce4359fbebd43e5df6d22aa04549"
     end
     on_intel do
-      url "https://github.com/bborn/prboom/releases/download/v0.1.1/prboom-linux-amd64.tar.gz"
-      sha256 "a5a6bed3f56289174529a2d9c15d918ba8a6d28ddc5e896c368e7129085c814a"
+      url "https://github.com/bborn/prboom/releases/download/v0.1.2/prboom-linux-amd64.tar.gz"
+      sha256 "a7967b7bf3060eebd1d6aac1be041f75aa98e8a100404eb742704cae3dc44cb5"
     end
   end
 
